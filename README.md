@@ -5,10 +5,10 @@ Welcome to the Project Showcase! This repository features a collection of JavaSc
 
 |  #  | Project                                                                                                                     | Live Demo                                                                         |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 01  | [Analog Clock](https://github.com/Mohammed-Ramzan/JavaScript-Projects-Showcase/tree/main/Analog%20Clock)                             | [Live Demo](https://mohammed-ramzan.github.io/JavaScript-Projects-Showcase/Analog%20Clock/)               |
-| 02  | [Brain Training App](https://github.com/Mohammed-Ramzan/JavaScript-Projects-Showcase/tree/main/Brain%20Training%20App)                               | [Live Demo](https://mohammed-ramzan.github.io/JavaScript-Projects-Showcase/Brain%20Training%20App/)                |
-| 03  | [Calculator](https://github.com/Mohammed-Ramzan/JavaScript-Projects-Showcase/tree/main/Calculator)                       | [Live Demo](https://mohammed-ramzan.github.io/JavaScript-Projects-Showcase/Calculator/) |
-| 04  | [Calender](https://github.com/Mohammed-Ramzan/JavaScript-Projects-Showcase/tree/main/Calender)                          | [Live Demo](https://mohammed-ramzan.github.io/JavaScript-Projects-Showcase/Calender/)          |
+| 01  | [Block_Down_Game](https://github.com/Mohammed-Ramzan/Javascript-Games/tree/main/Block%20Down%20Game)                             | [Live Demo](https://mohammed-ramzan.github.io/Javascript-Games/Block%20Down%20Game/)               |
+| 02  | [Brain Training App](https://github.com/Mohammed-Ramzan/Javascript-Games/tree/main/Brain%20Training%20App)                               | [Live Demo](https://mohammed-ramzan.github.io/Javascript-Games/Brain%20Training%20App/)                |
+| 03  | [Bubble_Game](https://github.com/Mohammed-Ramzan/Javascript-Games/tree/main/Bubble%20Game)                       | [Live Demo](https://mohammed-ramzan.github.io/Javascript-Games/Bubble%20Game/) |
+| 04  | [Spin_Wheal](https://github.com/Mohammed-Ramzan/Javascript-Games/tree/main/Spin%20Wheal)                          | [Live Demo](https://mohammed-ramzan.github.io/Javascript-Games/Spin%20Wheal/)          |
 
 Feel free to explore the projects by clicking on the respective live demo links.
 
