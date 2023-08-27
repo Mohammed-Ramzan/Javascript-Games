@@ -36,13 +36,22 @@ setInterval(function timer(){
         times.innerText = time;
 
     }else {
+        document.querySelector(".detail").style.display = "none";
         bubbles.innerHTML = `<div class="end">
         <p>The End</p>
         <h3>Your Score: ${newScore}</h3>
+        <button class="play-again">Play Again</button>
    </div>`;
+   playAgain()
     }
 
 }, 1000)
+
+function playAgain(){
+document.querySelector(".play-again").addEventListener("click", function(){
+    location.reload();
+})
+}
 
 makeBubble()
 checkBubble()
