@@ -78,6 +78,17 @@ body {
 .end h3 {
     font-size: 22px;
     padding-left: 17px;
+    margin-block: 5px;
+}
+.end .play-again {
+    border: 1px solid #dadada;
+    background-color: #fff;
+    padding: 10px 18px;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 20px;
+    margin-left: 12px;
+    cursor: pointer;
 }
 @media screen and (max-width: 1155px){
     .wrapper .bubbles {
