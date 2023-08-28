@@ -24,6 +24,29 @@ document.addEventListener('keydown', (event) => {
     else if (event.key == "ArrowRight") moveRight();
 })
 
+let touchStartX = 0;
+let touchEndX = 0;
+
+document.addEventListener('touchstart', (event) => {
+    touchStartX = event.touches[0].clientX;
+    touchEndX = touchStartX; // Initialize touchEndX to the same value as touchStartX
+});
+
+document.addEventListener('touchmove', (event) => {
+    touchEndX = event.touches[0].clientX;
+});
+
+document.addEventListener('touchend', () => {
+    const swipeDistance = touchEndX - touchStartX;
+    if (swipeDistance > 50) {
+        moveRight(); // Handle right swipe
+    } else if (swipeDistance < -50) {
+        moveLeft(); // Handle left swipe
+    }
+});
+
+
+
 block.addEventListener('animationiteration', () => {
     const randPos = Math.floor((Math.random() * 3)) * 100;
     block.style.left = randPos + "px";
